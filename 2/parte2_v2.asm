@@ -54,37 +54,37 @@ sw t2, 4(gp)
 
 ## Encontra a linha da mantissa
 addi t2, x0, 0
-beq t0, t2, M0000
+beq t1, t2, M0000
 addi t2, t2, 1
-beq t0, t2, M0001
+beq t1, t2, M0001
 addi t2, t2, 1
-beq t0, t2, M0010
+beq t1, t2, M0010
 addi t2, t2, 1
-beq t0, t2, M0011
+beq t1, t2, M0011
 addi t2, t2, 1
-beq t0, t2, M0100
+beq t1, t2, M0100
 addi t2, t2, 1
-beq t0, t2, M0101
+beq t1, t2, M0101
 addi t2, t2, 1
-beq t0, t2, M0110
+beq t1, t2, M0110
 addi t2, t2, 1
-beq t0, t2, M0111
+beq t1, t2, M0111
 addi t2, t2, 1
-beq t0, t2, M1000
+beq t1, t2, M1000
 addi t2, t2, 1
-beq t0, t2, M1001
+beq t1, t2, M1001
 addi t2, t2, 1
-beq t0, t2, M1010
+beq t1, t2, M1010
 addi t2, t2, 1
-beq t0, t2, M1011
+beq t1, t2, M1011
 addi t2, t2, 1
-beq t0, t2, M1100
+beq t1, t2, M1100
 addi t2, t2, 1
-beq t0, t2, M1101
+beq t1, t2, M1101
 addi t2, t2, 1
-beq t0, t2, M1110
+beq t1, t2, M1110
 addi t2, t2, 1
-beq t0, t2, M1111
+beq t1, t2, M1111
 
 j END
 
